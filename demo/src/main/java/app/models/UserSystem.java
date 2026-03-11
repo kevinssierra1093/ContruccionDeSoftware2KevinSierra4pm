@@ -10,7 +10,8 @@ import lombok.Setter;
 
 public class UserSystem extends Client {
 
-    private long relatedID;// El ID relacionado con el cliente o empleado al que pertenece el usuario del sistema.
-    private String systemRole;// El rol del usuario en el sistema, que puede ser un cliente o un empleado.
+    private long relatedID;// El ID relacionado con el cliente o empleado al que pertenece el usuario del
+                           // sistema.
+    private TypeClient systemRole;// El rol del usuario en el sistema, que puede ser un cliente o un empleado.
 
 }
